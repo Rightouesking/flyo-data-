@@ -1,0 +1,61 @@
+/* === Global Styles === */
+body {
+    background-color: hsl(229, 57%, 11%); 
+    color: hsl(243, 100%, 93%);           
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* === Storage Card Styling === */
+  .storage-card {
+    max-width: 800px;
+    background-color: hsl(228, 56%, 26%); /* Blue 850 */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 30px;
+  }
+  
+  /* === Gradient Progress Bar === */
+  .progress-bar {
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 999px;
+  }
+  
+  /* === Text Colors === */
+  .text-muted {
+    color: hsl(229, 7%, 55%) !important; 
+  }
+  
+  .text-accent {
+    color: hsl(6, 100%, 80%);
+  }
+  
+  /* === Tooltip Box === */
+  .tooltip-box {
+    background-color: #fff;
+    color: hsl(229, 57%, 11%);
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 8px 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 14px;
+  }
+  
+  /* Responsive Tooltip Positioning */
+  @media (max-width: 768px) {
+    .tooltip-box {
+      position: absolute;
+      left: 50%;
+      bottom: -40px;
+      transform: translateX(-50%);
+    }
+
+    .tooltip-box {
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+
+  }
